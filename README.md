@@ -2,6 +2,12 @@
 
 > A script to quickly paste text or files to [pastebin.com](http://pastebin.com)
 
+## Install:
+> (Optional)
+```sh
+$ sudo ./install.sh
+```
+
 ## Run:
 
 > Run `./qpaste.sh` instead of `qpaste` if you didn't **[install](#install)**
@@ -16,12 +22,3 @@ $ qpaste mycode.cpp
 ```
 
 > (You can also directly copy the outputted link via `xclip`)
-
-## Install:
-
-1. Add to path:
-```sh
-$ sudo mv qpaste.sh /bin/qpaste
-$ sudo chmod +x /bin/qpaste
-```
-
