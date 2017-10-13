@@ -4,6 +4,8 @@
 
 ## Run:
 
+> Run `./qpaste.sh` instead of `qpaste` if you didn't **[install](#Install)**
+
 1. Upload text
 ```sh
 $ qpaste "Hello world!"
