@@ -4,7 +4,7 @@
 
 ## Run:
 
-> Run `./qpaste.sh` instead of `qpaste` if you didn't **[install](#Install)**
+> Run `./qpaste.sh` instead of `qpaste` if you didn't **[install](#install)**
 
 1. Upload text
 ```sh
