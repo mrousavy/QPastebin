@@ -20,6 +20,6 @@ qpaste mycode.cpp
 1. Add to path:
 ```sh
 sudo mv qpaste.sh /bin/qpaste
-chmod +x /bin/qpaste
+sudo chmod +x /bin/qpaste
 ```
 
