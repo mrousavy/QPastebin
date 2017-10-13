@@ -10,7 +10,7 @@ then
 else	
 	input=$1 # The actual input - via command args
 
-	if [ -f $1] # If arg 1 is a file:
+	if [ -f "$1" ] # If arg 1 is a file:
 	then
 		input="$(cat $1)" # It's a file -> Read content
 	fi
