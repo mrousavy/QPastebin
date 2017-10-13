@@ -4,6 +4,12 @@
 
 ## Install:
 > (Optional)
+
+1. Set API Token in `qpaste.sh` line **3**
+```sh
+vim qpaste.sh
+```
+2. Run install script
 ```sh
 $ sudo ./install.sh
 ```
