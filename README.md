@@ -6,11 +6,11 @@
 
 1. Upload text
 ```sh
-qpaste "Hello world!"
+$ qpaste "Hello world!"
 ```
 2. Upload a file
 ```sh
-qpaste mycode.cpp
+$ qpaste mycode.cpp
 ```
 
 > (You can also directly copy the outputted link via `xclip`)
@@ -19,7 +19,7 @@ qpaste mycode.cpp
 
 1. Add to path:
 ```sh
-sudo mv qpaste.sh /bin/qpaste
-sudo chmod +x /bin/qpaste
+$ sudo mv qpaste.sh /bin/qpaste
+$ sudo chmod +x /bin/qpaste
 ```
 
