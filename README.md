@@ -13,7 +13,7 @@ qpaste "Hello world!"
 qpaste mycode.cpp
 ```
 
-> (You can also directly copy the outputted link via `xcopy`)
+> (You can also directly copy the outputted link via `xclip`)
 
 ## Install:
 
