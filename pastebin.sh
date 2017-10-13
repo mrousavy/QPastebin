@@ -5,12 +5,10 @@ input='test' # The actual input - via command args
 echo $token
 
 curl -X POST https://pastebin.com/api/api_post.php -d '
-{
-	"api_dev_key"			:  	$token,
-	"api_option"			:	"paste",
-	"api_paste_code"		: 	$input,
-	"api_paste_private"		:	1,
-	"api_paste_name"		:	"QPaste - http://github.com/mrousavy/QPastebin",
-	"api_paste_expire_date"	:	$expiration
-}'
+	api_dev_key=,
+	api_option=paste,
+	api_paste_code=test,
+	api_paste_private=1,
+	api_paste_name=QPaste - http://github.com/mrousavy/QPastebin,
+	api_paste_expire_date=1H'
 echo ''
